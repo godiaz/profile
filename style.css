@@ -127,11 +127,6 @@ ul li{
 }
 .btn-white:hover {
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
-  background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-  background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-  background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-  background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
   background-color:#f6f6f6;
 }
 .btn-white:active {
@@ -185,7 +180,7 @@ ul li{
     left: 0px;
     top: 0px;
     bottom: 0px;
-    width: 90px;
+    width: 70px;
     display: flex;
     overflow: auto;
     opacity: 0.5;
