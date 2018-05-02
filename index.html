@@ -9,10 +9,21 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <link href='style.css' rel='stylesheet'>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
   </head>
   <body>
 
-    <div class="container">
+    <div id="sidebar">
+        <div><a href="#summary"><i class="fas fa-user sidebar_icon"></i></a></div>
+        <div><a href="#favorite-movies"><i class="fas fa-film sidebar_icon"></i></a></div>
+        <div><a href="#help"><i class="fas fa-question sidebar_icon"></i></a></div>
+    </div>
+
+    <div class="container" id="summary">
       <div class="profile-card">
         <img class="img-profile" src="images/profile_picture.jpg" alt="Profile Picture">
         <h1 class= "header_one light-titles"> Gonzalo A. Diaz </h1>
@@ -21,6 +32,8 @@
         <a href="www.ufo-brands.com" class="btn-white">See for yourself </a>
       </div>
     </div>
+
+
     <div class="container">
       <div class="profile-card mt3">
         <p class="lightgray-text"> Social Media </p>
@@ -34,7 +47,7 @@
 
     <div class="container" >
 
-    <div class="movie-card">
+    <div class="movie-card" id="favorite-movies">
       <table>
         <tr>
           <td><img src="images/hitchhikers.jpg" alt="The HitchHiker's Guide To The Galaxy" class="movie-image"></td>
@@ -57,11 +70,9 @@
     </div>
   </div>
 
-  <div class="footer container">
+  <div class="footer container" id="help">
     <p class="footer-icon"> <i class="fas fa-envelope"></i> <a class="footer-link" href="mailto:info@ventra.com.co"> info@ventra.com.co</a></p>
   </div>
-    </div>
-
 
   </body>
 </html>
