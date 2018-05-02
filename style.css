@@ -177,3 +177,47 @@ ul li{
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+
+#sidebar {
+    background-color: #595959;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 90px;
+    display: flex;
+    overflow: auto;
+    opacity: 0.5;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#page-content {
+  margin-left: 400px;
+  text-decoration: none;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+    color: black;
+}
+
+.sidebar_icon {
+  color: black;
+}
+
+.sidebar_icon:hover {
+  color: white;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+  }
